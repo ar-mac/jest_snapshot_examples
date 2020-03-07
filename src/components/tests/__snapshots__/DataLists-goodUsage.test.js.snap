@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataLists component renders single user without posts and with single_user class 1`] = `
+<div
+  className="single_or_no_lists"
+>
+  <ul>
+    <li
+      key="0"
+    >
+      <span>
+        User: 
+      </span>
+      <span>
+        user1
+      </span>
+    </li>
+  </ul>
+  <div
+    className="single_user"
+  >
+    No posts to display
+  </div>
+</div>
+`;
