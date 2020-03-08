@@ -2,6 +2,11 @@ import React from "react";
 import { shallow } from "enzyme";
 import DataLists from "../DataLists";
 
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+Enzyme.configure({ adapter: new Adapter() });
+
 describe("DataLists component", () => {
   // BAD - generic and not helpful test name
   it("renders data list correctly", () => {
